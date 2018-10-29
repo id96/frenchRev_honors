@@ -1,0 +1,81 @@
+<text>
+	<body>
+		<!-- TOME -->
+		<div1 type = "volume" n="8">  
+			<!-- SESSION -->
+			<div2 type = "session">   
+				<!-- PARLIAMENT & LEADER -->
+				<head>ASSEMBLÉE NATIONALE.</head> 
+				<head>présidence de m. bailly.</head> <!-- M. Bailly the mayor of Paris at the time -->
+				
+				<!-- DATE OF SESSION -->
+				<p>Séance du 							
+					<date value="1789-06-30">mardi 30 juin 1789</date>. 
+				</p>              
+				
+				<!-- SPEECH -->
+				<sp> 
+					<!-- SPEAKER -->
+					<speaker>M. le Président</speaker>
+					<!-- RAW TEXT OF SPEECH -->
+					<p></p>
+					<p></p>       
+					<p></p>
+					<p></p>
+				<!-- END OF SPEECH -->
+				</sp>
+
+				<!-- SPEECH -->
+				<sp> 
+					<!-- SPEAKER -->
+					<speaker>M.Leearlier,</speaker> 
+					<!-- RAW TEXT OF SPEECH -->
+					<p></p>
+					<p></p>     
+					<p></p>
+					<p></p>
+				<!-- END OF SPEECH -->
+				</sp>
+			<!-- END OF SESSION -->
+			</div2>
+
+			<!-- NEXT SESSION -->
+			<div2 type = "session">   
+				<!-- PARLIAMENT & LEADER -->
+				<head>ASSEMBLÉE NATIONALE.</head> 
+				<head>présidence de m. bailly.</head> <!-- M. Bailly the mayor of Paris at the time -->
+				
+				<!-- DATE OF SESSION -->
+				<p>Séance du 							
+					<date value="1789-07-02">jeudi 2 juillet 1789</date>
+				</p>              
+				
+				<!-- SPEECH -->
+				<sp> 
+					<!-- SPEAKER -->
+					<speaker>M. le Président</speaker>
+					<!-- RAW TEXT OF SPEECH -->
+					<p></p>
+					<p></p>       
+					<p></p>
+					<p></p>
+				<!-- END OF SPEECH -->
+				</sp>
+
+				<!-- SPEECH -->
+				<sp> 
+					<!-- SPEAKER -->
+					<speaker>M. Leclere de Juigné,</speaker> 
+					<!-- RAW TEXT OF SPEECH -->
+					<p></p>
+					<p></p>     
+					<p></p>
+					<p></p>
+				<!-- END OF SPEECH -->
+				</sp>
+			<!-- END OF SESSION -->
+			</div2>
+		<!-- END OF TOME -->
+		</div1>
+	</body>
+</text>
