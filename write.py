@@ -44,6 +44,7 @@ with open("archives/tome8.xml", encoding="utf-8") as reader:
 			p = speech.find_all("p") #type result set
 			for x in p:
 				raw_text.append(x.text)
+		print(raw_text)
 		# print(len(session))
 		# print(len(raw_text)) #12696, this makes sense intuitevly because there are p tags not nested in sp tags
 		# tome = soup.find_all(type="volume")
