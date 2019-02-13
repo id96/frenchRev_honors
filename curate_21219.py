@@ -6,7 +6,7 @@ word_pattern = re.compile("\w[\-\w]+\w")
 
 
 vocab_reader = open('clean_output/vocabulary.txt', mode='r')
-vocab_writer = open('clean_output/reduction_test_string.txt', mode='w')
+vocab_writer = open('clean_output/reduction_test.txt', mode='w')
 stopwords = ['les', 'que', 'des', 'qui', 'est', 'vous', 'dans', 'pour', 'une',
 			 'pas', 'par', 'sur', 'nous', 'cette', 'aux', 'mais', 'ils', 'leur',
 			 'être', 'sont', 'ces', 'ont', 'elle', 'tous', 'avec', 'faire', 'son',
@@ -20,13 +20,14 @@ for line in vocab_reader:
 	line = line.rstrip() 
 	line = line.lower()	
 	tokens = word_pattern.findall(line)
-	for word in tokens:
-		if word in stopwords:
-			word = word.replace(word,'')
-	#join the words in tokens .join(' ')
-	text = ' '.join(tokens)
-	vocab_writer.write('{}\n'.format(text))
-	# print(tokens)
+	# for word in tokens:
+	# 	if word in stopwords:
+	# 		word = word.replace(word,'')
+	
+	#NEED TO UPDATE TOKENS AFTER DOING STOPWORD FOR LOOP
+	tokens = [word for word in tokens if word not in stopwords]
+	vocab_writer.write('{}\n'.format(tokens))
+	
 
 vocab_reader.close()
 vocab_writer.close() 
